@@ -125,7 +125,7 @@ function erpal_book_field_default_field_instances() {
     'bundle' => 'erpal_book',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => 'Select an address to use address tokens in your document',
+    'description' => t('Select an address to use address tokens in your document'),
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -165,7 +165,7 @@ function erpal_book_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'module' => 'erpal_basic_helper',
         'settings' => array(
           'link' => TRUE,
@@ -174,7 +174,7 @@ function erpal_book_field_default_field_instances() {
         'weight' => 7,
       ),
       'teaser' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'module' => 'erpal_basic_helper',
         'settings' => array(
           'link' => TRUE,
@@ -185,7 +185,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_asset_files',
-    'label' => 'PDF exports',
+    'label' => t('PDF exports'),
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -217,7 +217,7 @@ function erpal_book_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'module' => 'erpal_basic_helper',
         'settings' => array(
           'link' => FALSE,
@@ -226,7 +226,7 @@ function erpal_book_field_default_field_instances() {
         'weight' => 1,
       ),
       'teaser' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 0,
@@ -234,7 +234,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_book_origin',
-    'label' => 'Origin template',
+    'label' => t('Origin template'),
     'required' => 0,
     'settings' => array(
       'behaviors' => array(
@@ -272,14 +272,14 @@ function erpal_book_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
         'weight' => 3,
       ),
       'teaser' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 0,
@@ -287,7 +287,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_book_tags',
-    'label' => 'Book Tags',
+    'label' => t('Book Tags'),
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -316,7 +316,7 @@ function erpal_book_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'module' => 'number',
         'settings' => array(
           'decimal_separator' => '.',
@@ -328,7 +328,7 @@ function erpal_book_field_default_field_instances() {
         'weight' => 8,
       ),
       'teaser' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 0,
@@ -336,7 +336,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_book_version',
-    'label' => 'Version',
+    'label' => t('Version'),
     'required' => 0,
     'settings' => array(
       'max' => '',
@@ -360,10 +360,10 @@ function erpal_book_field_default_field_instances() {
     'default_value' => NULL,
     'default_value_function' => '',
     'deleted' => 0,
-    'description' => 'Choosing a contact will make it possible to personalise the document',
+    'description' => t('Choosing a contact will make it possible to personalise the document'),
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'module' => 'erpal_basic_helper',
         'settings' => array(
           'link' => TRUE,
@@ -372,7 +372,7 @@ function erpal_book_field_default_field_instances() {
         'weight' => 5,
       ),
       'teaser' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'module' => 'erpal_basic_helper',
         'settings' => array(
           'link' => TRUE,
@@ -383,7 +383,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_contact_ref',
-    'label' => 'Contact',
+    'label' => t('Contact'),
     'required' => 0,
     'settings' => array(
       'behaviors' => array(
@@ -423,7 +423,7 @@ function erpal_book_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'module' => 'erpal_basic_helper',
         'settings' => array(
           'link' => FALSE,
@@ -432,7 +432,7 @@ function erpal_book_field_default_field_instances() {
         'weight' => 9,
       ),
       'teaser' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 0,
@@ -440,7 +440,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_files_ref',
-    'label' => 'Files',
+    'label' => t('Files'),
     'required' => 0,
     'settings' => array(
       'behaviors' => array(
@@ -480,7 +480,7 @@ function erpal_book_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
@@ -495,7 +495,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_is_template',
-    'label' => 'Is template',
+    'label' => t('Is template'),
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -537,7 +537,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'body',
-    'label' => 'Body',
+    'label' => t('Body'),
     'required' => FALSE,
     'settings' => array(
       'display_summary' => TRUE,
@@ -572,7 +572,7 @@ function erpal_book_field_default_field_instances() {
         'weight' => 9,
       ),
       'teaser' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'module' => 'erpal_basic_helper',
         'settings' => array(
           'link' => TRUE,
@@ -583,7 +583,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_asset_files',
-    'label' => 'PDF exports',
+    'label' => t('PDF exports'),
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -623,7 +623,7 @@ function erpal_book_field_default_field_instances() {
         'weight' => 1,
       ),
       'teaser' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 0,
@@ -631,7 +631,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_book_origin',
-    'label' => 'Origin template',
+    'label' => t('Origin template'),
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -663,7 +663,7 @@ function erpal_book_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'module' => 'entityreference',
         'settings' => array(
           'link' => FALSE,
@@ -680,7 +680,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_book_parent',
-    'label' => 'Document parent',
+    'label' => t('Document parent'),
     'required' => 0,
     'settings' => array(
       'behaviors' => array(
@@ -889,7 +889,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_estimated_duration',
-    'label' => 'Estimated duration',
+    'label' => t('Estimated duration'),
     'required' => 0,
     'settings' => array(
       'max' => '',
@@ -917,7 +917,7 @@ function erpal_book_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'module' => 'erpal_basic_helper',
         'settings' => array(
           'link' => FALSE,
@@ -926,7 +926,7 @@ function erpal_book_field_default_field_instances() {
         'weight' => 10,
       ),
       'teaser' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 0,
@@ -934,7 +934,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_files_ref',
-    'label' => 'Files',
+    'label' => t('Files'),
     'required' => 0,
     'settings' => array(
       'behaviors' => array(
@@ -971,17 +971,17 @@ function erpal_book_field_default_field_instances() {
       ),
     ),
     'deleted' => 0,
-    'description' => 'Is this a template book or chapter',
+    'description' => t('Is this a template book or chapter'),
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
         'weight' => 2,
       ),
       'teaser' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 0,
@@ -989,7 +989,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_is_template',
-    'label' => 'Is template',
+    'label' => t('Is template'),
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
@@ -1013,7 +1013,7 @@ function erpal_book_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => t('above'),
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
@@ -1028,7 +1028,7 @@ function erpal_book_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_page_exclude_from',
-    'label' => 'Exclude from',
+    'label' => t('Exclude from'),
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,

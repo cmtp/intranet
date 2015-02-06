@@ -47,7 +47,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents (default)',
+    'name' => t('Erpal Documents (default)'),
     'path' => 'books/%',
     'category' => 'Documents',
     'cat_actions' => array(
@@ -60,7 +60,7 @@ function erpal_book_ui_cat_items_settings_info() {
           'field_is_template' => '0',
         ),
         'path_destination' => TRUE,
-        'title' => 'Create a new document',
+        'title' => t('Create a new document'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -74,7 +74,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => 'active-trail active',
         'active' => TRUE,
@@ -90,7 +90,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -148,7 +148,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Create Document',
+    'name' => t('Erpal Documents: Create Document'),
     'path' => 'node/add/erpal-book',
     'category' => 'Documents',
     'cat_actions' => array(),
@@ -160,7 +160,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => 'active-trail active',
         'active' => TRUE,
@@ -176,7 +176,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -202,7 +202,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_create_template';
-  $cat_item->name = 'Erpal Documents: Create Template';
+  $cat_item->name = t('Erpal Documents: Create Template');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Documents';
   $cat_item->path = 'node/add/erpal-book';
@@ -236,7 +236,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Create Template',
+    'name' => t('Erpal Documents: Create Template'),
     'path' => 'node/add/erpal-book',
     'category' => 'Documents',
     'cat_actions' => array(),
@@ -248,7 +248,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -264,7 +264,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => 'active',
         'active' => TRUE,
@@ -290,7 +290,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_document_add_pages_cloned';
-  $cat_item->name = 'Erpal Documents: Document / Add pages cloned';
+  $cat_item->name = t('Erpal Documents: Document / Add pages cloned');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Documents';
   $cat_item->path = 'books/clonetemplates/%node';
@@ -338,7 +338,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Document / Add pages cloned',
+    'name' => t('Erpal Documents: Document / Add pages cloned'),
     'path' => 'books/clonetemplates/%node',
     'category' => 'Documents',
     'cat_actions' => array(),
@@ -350,7 +350,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => 'active-trail',
         'active' => TRUE,
@@ -366,7 +366,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -382,7 +382,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Files',
+        'title' => t('Files'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -406,7 +406,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_document_aul';
-  $cat_item->name = 'Erpal Documents: Document / AUL';
+  $cat_item->name = t('Erpal Documents: Document / AUL');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Dashboard';
   $cat_item->path = 'node/%/aul';
@@ -454,7 +454,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Document / AUL',
+    'name' => t('Erpal Documents: Document / AUL'),
     'path' => 'node/%/aul',
     'category' => 'Dashboard',
     'cat_actions' => array(),
@@ -482,7 +482,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -498,7 +498,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Files',
+        'title' => t('Files'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -522,7 +522,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_document_clone';
-  $cat_item->name = 'Erpal Documents: Document / Clone';
+  $cat_item->name = t('Erpal Documents: Document / Clone');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Documents';
   $cat_item->path = 'books/%node/clone';
@@ -570,7 +570,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Document / Clone',
+    'name' => t('Erpal Documents: Document / Clone'),
     'path' => 'books/%node/clone',
     'category' => 'Documents',
     'cat_actions' => array(),
@@ -582,7 +582,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => 'active-trail',
         'active' => TRUE,
@@ -598,7 +598,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -614,7 +614,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Files',
+        'title' => t('Files'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -638,7 +638,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_document_create_page';
-  $cat_item->name = 'Erpal Documents: Document  / Create page';
+  $cat_item->name = t('Erpal Documents: Document  / Create page');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Dashboard';
   $cat_item->path = 'node/add/erpal-book-page?field_book_parent=%node';
@@ -686,7 +686,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Document  / Create page',
+    'name' => t('Erpal Documents: Document  / Create page'),
     'path' => 'node/add/erpal-book-page?field_book_parent=%node',
     'category' => 'Dashboard',
     'cat_actions' => array(),
@@ -698,7 +698,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => 'active-trail',
         'active' => TRUE,
@@ -714,7 +714,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -740,7 +740,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_document_edit';
-  $cat_item->name = 'Erpal Documents: Document / Edi';
+  $cat_item->name = t('Erpal Documents: Document / Edi');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Dashboard';
   $cat_item->path = 'node/%/edit';
@@ -788,7 +788,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Document / Edi',
+    'name' => t('Erpal Documents: Document / Edi'),
     'path' => 'node/%/edit',
     'category' => 'Dashboard',
     'cat_actions' => array(),
@@ -800,7 +800,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => 'active-trail',
         'active' => TRUE,
@@ -816,7 +816,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -832,7 +832,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Files',
+        'title' => t('Files'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -856,7 +856,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_document_export';
-  $cat_item->name = 'Erpal Documents: Document / Export';
+  $cat_item->name = t('Erpal Documents: Document / Export');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Documents';
   $cat_item->path = 'books/%node/export';
@@ -904,7 +904,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Document / Export',
+    'name' => t('Erpal Documents: Document / Export'),
     'path' => 'books/%node/export',
     'category' => 'Documents',
     'cat_actions' => array(),
@@ -916,7 +916,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => 'active-trail',
         'active' => TRUE,
@@ -932,7 +932,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -948,7 +948,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Files',
+        'title' => t('Files'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -972,7 +972,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_document_page_view';
-  $cat_item->name = 'Erpal Documents: Document Page / View';
+  $cat_item->name = t('Erpal Documents: Document Page / View');
   $cat_item->catch_subpaths = 1;
   $cat_item->category = 'Documents';
   $cat_item->path = 'node/%node';
@@ -1018,7 +1018,7 @@ function erpal_book_ui_cat_items_settings_info() {
           'field_book_parent' => '[node:nid]',
         ),
         'path_destination' => FALSE,
-        'title' => 'Add a page',
+        'title' => t('Add a page'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -1030,7 +1030,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Export',
+        'title' => t('Export'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -1042,7 +1042,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Add pages cloned',
+        'title' => t('Add pages cloned'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -1056,7 +1056,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => 'active-trail',
         'active' => TRUE,
@@ -1072,7 +1072,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1088,7 +1088,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Files',
+        'title' => t('Files'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1112,7 +1112,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_document_view';
-  $cat_item->name = 'Erpal Documents: Document / View';
+  $cat_item->name = t('Erpal Documents: Document / View');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Documents';
   $cat_item->path = 'node/%node';
@@ -1173,7 +1173,7 @@ function erpal_book_ui_cat_items_settings_info() {
           'field_book_parent' => '[node:nid]',
         ),
         'path_destination' => FALSE,
-        'title' => 'Add a page',
+        'title' => t('Add a page'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -1185,7 +1185,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Export',
+        'title' => t('Export'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -1197,7 +1197,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Add pages cloned',
+        'title' => t('Add pages cloned'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -1209,7 +1209,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Clone to new book',
+        'title' => t('Clone to new book'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -1223,7 +1223,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => 'active-trail',
         'active' => TRUE,
@@ -1239,7 +1239,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1255,7 +1255,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Files',
+        'title' => t('Files'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1279,7 +1279,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_files';
-  $cat_item->name = 'Erpal Documents: Files';
+  $cat_item->name = t('Erpal Documents: Files');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Dashboard';
   $cat_item->path = 'node/%/files';
@@ -1312,7 +1312,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Files',
+    'name' => t('Erpal Documents: Files'),
     'path' => 'node/%/files',
     'category' => 'Dashboard',
     'cat_actions' => array(),
@@ -1324,7 +1324,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1340,7 +1340,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1356,7 +1356,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Files',
+        'title' => t('Files'),
         'css_id' => '',
         'css_class' => 'active-trail active',
         'active' => TRUE,
@@ -1380,7 +1380,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_template_add_pages';
-  $cat_item->name = 'Erpal Documents: Template / Add pages';
+  $cat_item->name = t('Erpal Documents: Template / Add pages');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Documents';
   $cat_item->path = 'books/clonetemplates/%node';
@@ -1428,7 +1428,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Template / Add pages',
+    'name' => t('Erpal Documents: Template / Add pages'),
     'path' => 'books/clonetemplates/%node',
     'category' => 'Documents',
     'cat_actions' => array(),
@@ -1440,7 +1440,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1456,7 +1456,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => 'active-trail',
         'active' => TRUE,
@@ -1472,7 +1472,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Files',
+        'title' => t('Files'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1496,7 +1496,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_template_add_pages_clone';
-  $cat_item->name = 'Erpal Documents: Template / Add pages (clone)';
+  $cat_item->name = t('Erpal Documents: Template / Add pages (clone)');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Documents';
   $cat_item->path = 'books/%node/clone';
@@ -1544,7 +1544,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Template / Add pages (clone)',
+    'name' => t('Erpal Documents: Template / Add pages (clone)'),
     'path' => 'books/%node/clone',
     'category' => 'Documents',
     'cat_actions' => array(),
@@ -1556,7 +1556,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1572,7 +1572,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => 'active-trail',
         'active' => TRUE,
@@ -1588,7 +1588,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Files',
+        'title' => t('Files'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1612,7 +1612,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_template_aul';
-  $cat_item->name = 'Erpal Documents: Template / AUL';
+  $cat_item->name = t('Erpal Documents: Template / AUL');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Documents';
   $cat_item->path = 'node/%node/aul';
@@ -1660,7 +1660,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Template / AUL',
+    'name' => t('Erpal Documents: Template / AUL'),
     'path' => 'node/%node/aul',
     'category' => 'Documents',
     'cat_actions' => array(),
@@ -1672,7 +1672,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1688,7 +1688,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => 'active-trail',
         'active' => TRUE,
@@ -1704,7 +1704,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Files',
+        'title' => t('Files'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1776,7 +1776,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Template / Create page',
+    'name' => t('Erpal Documents: Template / Create page'),
     'path' => 'node/add/erpal-book-page',
     'category' => 'Documents',
     'cat_actions' => array(),
@@ -1788,7 +1788,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1804,7 +1804,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => 'active-trail',
         'active' => TRUE,
@@ -1830,7 +1830,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_template_edit';
-  $cat_item->name = 'Erpal Documents: Template / Edit';
+  $cat_item->name = t('Erpal Documents: Template / Edit');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Documents';
   $cat_item->path = 'node/%node/edit';
@@ -1878,7 +1878,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Template / Edit',
+    'name' => t('Erpal Documents: Template / Edit'),
     'path' => 'node/%node/edit',
     'category' => 'Documents',
     'cat_actions' => array(),
@@ -1890,7 +1890,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1906,7 +1906,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => 'active-trail',
         'active' => TRUE,
@@ -1922,7 +1922,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Files',
+        'title' => t('Files'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -1946,7 +1946,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_template_export';
-  $cat_item->name = 'Erpal Documents: Template / Export';
+  $cat_item->name = t('Erpal Documents: Template / Export');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Documents';
   $cat_item->path = 'books/%node/export';
@@ -1994,7 +1994,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Template / Export',
+    'name' => t('Erpal Documents: Template / Export'),
     'path' => 'books/%node/export',
     'category' => 'Documents',
     'cat_actions' => array(),
@@ -2006,7 +2006,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -2022,7 +2022,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => 'active-trail',
         'active' => TRUE,
@@ -2038,7 +2038,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Files',
+        'title' => t('Files'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -2062,7 +2062,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_templates';
-  $cat_item->name = 'Erpal Documents: Templates';
+  $cat_item->name = t('Erpal Documents: Templates');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Documents';
   $cat_item->path = 'books/%pm_arg';
@@ -2096,7 +2096,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Templates',
+    'name' => t('Erpal Documents: Templates'),
     'path' => 'books/%pm_arg',
     'category' => 'Documents',
     'cat_actions' => array(
@@ -2109,7 +2109,7 @@ function erpal_book_ui_cat_items_settings_info() {
           'field_is_template' => '1',
         ),
         'path_destination' => TRUE,
-        'title' => 'Create a new template',
+        'title' => t('Create a new template'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -2123,7 +2123,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -2139,7 +2139,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => 'active-trail active',
         'active' => TRUE,
@@ -2163,7 +2163,7 @@ function erpal_book_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_documents_templates_view';
-  $cat_item->name = 'Erpal Documents: Templates / View';
+  $cat_item->name = t('Erpal Documents: Templates / View');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Documents';
   $cat_item->path = 'node/%node';
@@ -2211,7 +2211,7 @@ function erpal_book_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Documents: Templates / View',
+    'name' => t('Erpal Documents: Templates / View'),
     'path' => 'node/%node',
     'category' => 'Documents',
     'cat_actions' => array(
@@ -2224,7 +2224,7 @@ function erpal_book_ui_cat_items_settings_info() {
           'field_book_parent' => '[node:nid]',
         ),
         'path_destination' => FALSE,
-        'title' => 'Add a page',
+        'title' => t('Add a page'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -2236,7 +2236,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Export',
+        'title' => t('Export'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -2248,7 +2248,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Add pages cloned',
+        'title' => t('Add pages cloned'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -2260,7 +2260,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Clone to new book',
+        'title' => t('Clone to new book'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -2274,7 +2274,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Documents',
+        'title' => t('Documents'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -2290,7 +2290,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'books/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Templates',
+        'title' => t('Templates'),
         'css_id' => '',
         'css_class' => 'active-trail active',
         'active' => TRUE,
@@ -2306,7 +2306,7 @@ function erpal_book_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Files',
+        'title' => t('Files'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,

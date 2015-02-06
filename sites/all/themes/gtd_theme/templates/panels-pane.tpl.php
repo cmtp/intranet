@@ -43,7 +43,7 @@
   <?php if($title ==  drupal_get_title()) : ?>
     <h1 class="pane-title">
     <?php 
-      /*if ($title=='Contacts') {
+      if ($title=='Contacts') {
         print "Contactos";
       }
       elseif ($title=='Activities') {
@@ -62,19 +62,19 @@
         print "Mi Calendario";
       }
       
-      else*/
+      else
         print $title; 
     ?></h1>
   <?php else : ?>
     <h2 class="pane-title">
     <?php
-      /*if ($title=='Templates') {
+      if ($title=='Templates') {
         print "Plantillas";
       }
       elseif ($title='Calendar') {
         print "Calendario";
       }
-       else*/
+       else
         print $title; 
     ?></h2>
   <?php endif; ?>

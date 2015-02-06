@@ -19,7 +19,7 @@ function erpal_book_ui_default_page_manager_handlers() {
   $handler->handler = 'panel_context';
   $handler->weight = 4;
   $handler->conf = array(
-    'title' => 'Book Node Panel',
+    'title' => t('Book Node Panel'),
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
@@ -217,7 +217,7 @@ function erpal_book_ui_default_page_manager_handlers() {
   $handler->handler = 'panel_context';
   $handler->weight = 5;
   $handler->conf = array(
-    'title' => 'Book-page Node Panel',
+    'title' => t('Book-page Node Panel'),
     'no_blocks' => 0,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
@@ -429,9 +429,9 @@ function erpal_book_ui_default_page_manager_pages() {
   $page = new stdClass();
   $page->disabled = FALSE; /* Edit this to true to make a default page disabled initially */
   $page->api_version = 1;
-  $page->name = 'books';
+  $page->name = t('books');
   $page->task = 'page';
-  $page->admin_title = 'Books';
+  $page->admin_title = t('Books');
   $page->admin_description = '';
   $page->path = 'books/%book_type';
   $page->access = array(
@@ -509,7 +509,7 @@ function erpal_book_ui_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Documents';
+  $display->title = t('Documents');
   $display->uuid = '99055d10-cf55-b7b4-0dff-b51721744686';
   $display->content = array();
   $display->panels = array();
@@ -564,7 +564,7 @@ function erpal_book_ui_default_page_manager_pages() {
   $handler->handler = 'panel_context';
   $handler->weight = 1;
   $handler->conf = array(
-    'title' => 'Templates panel',
+    'title' => t('Templates panel'),
     'no_blocks' => 1,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',

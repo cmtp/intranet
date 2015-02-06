@@ -15,7 +15,7 @@ function erpal_book_ui_menu_default_menu_links() {
     'menu_name' => 'menu-erpal-menu',
     'link_path' => 'books/books',
     'router_path' => 'books/%',
-    'link_title' => 'Documents',
+    'link_title' => t('Documents'),
     'options' => array(
       'attributes' => array(),
       'item_attributes' => array(

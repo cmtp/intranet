@@ -15,7 +15,7 @@ function erpal_book_ui_default_panels_mini() {
   $mini->api_version = 1;
   $mini->name = 'book_general_fields';
   $mini->category = 'erpal books';
-  $mini->admin_title = 'Book general fields';
+  $mini->admin_title = t('Book general fields');
   $mini->admin_description = '';
   $mini->requiredcontexts = array(
     0 => array(
@@ -326,7 +326,7 @@ function erpal_book_ui_default_panels_mini() {
   $mini->api_version = 1;
   $mini->name = 'book_page_fields';
   $mini->category = 'erpal books';
-  $mini->admin_title = 'Book page fields';
+  $mini->admin_title = t('Book page fields');
   $mini->admin_description = '';
   $mini->requiredcontexts = array(
     0 => array(
