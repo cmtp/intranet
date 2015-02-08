@@ -13,7 +13,7 @@ function erpal_calendar_ui_path_breadcrumbs_settings_info() {
   $path_breadcrumb = new stdClass();
   $path_breadcrumb->api_version = 1;
   $path_breadcrumb->machine_name = 'calendar_own_view_breadcrumb';
-  $path_breadcrumb->name = 'Calendar own view breadcrumb';
+  $path_breadcrumb->name = t('Calendar own view breadcrumb');
   $path_breadcrumb->path = 'calendar/%type';
   $path_breadcrumb->data = array(
     'titles' => array(
@@ -42,7 +42,7 @@ function erpal_calendar_ui_path_breadcrumbs_settings_info() {
   $path_breadcrumb = new stdClass();
   $path_breadcrumb->api_version = 1;
   $path_breadcrumb->machine_name = 'date_item_entity_breadcrumb';
-  $path_breadcrumb->name = 'Date item entity breadcrumb';
+  $path_breadcrumb->name = t('Date item entity breadcrumb');
   $path_breadcrumb->path = 'date_item/%date_item_id';
   $path_breadcrumb->data = array(
     'titles' => array(

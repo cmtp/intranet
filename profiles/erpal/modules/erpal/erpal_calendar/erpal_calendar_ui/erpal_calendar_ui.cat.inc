@@ -318,7 +318,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
     'access' => array(
       'plugins' => array(
         0 => array(
-          'name' => 'term_vocabulary',
+          'name' => t('term_vocabulary'),
           'settings' => array(
             'vids' => array(
               19 => '19',
@@ -367,7 +367,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Calendar: Legend',
+    'name' => t('Erpal Calendar: Legend'),
     'path' => 'taxonomy/term/%',
     'category' => 'Calendar',
     'cat_actions' => array(),
@@ -379,7 +379,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         'path_pattern' => 'calendar/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Own calendar',
+        'title' => t('Own calendar'),
         'css_id' => '',
         'css_class' => 'active-trail',
         'active' => TRUE,
@@ -395,7 +395,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         'path_pattern' => 'calendar/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Global calendar',
+        'title' => t('Global calendar'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -419,7 +419,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_calendar_view_data';
-  $cat_item->name = 'Erpal Calendar: View Data';
+  $cat_item->name = t('Erpal Calendar: View Data');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Calendar';
   $cat_item->path = 'date_item/%';
@@ -452,7 +452,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Calendar: View Data',
+    'name' => t('Erpal Calendar: View Data'),
     'path' => 'date_item/%',
     'category' => 'Calendar',
     'cat_actions' => array(
@@ -463,7 +463,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         'path_pattern' => 'date_item/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Edit this single date',
+        'title' => t('Edit this single date'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -475,7 +475,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         'path_pattern' => 'node/%/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Edit the [date_item:src-type]',
+        'title' => t('Edit the [date_item:src-type]'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -489,7 +489,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         'path_pattern' => 'calendar/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Own calendar',
+        'title' => t('Own calendar'),
         'css_id' => '',
         'css_class' => 'active-trail active',
         'active' => TRUE,
@@ -505,7 +505,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         'path_pattern' => 'calendar/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Global calendar',
+        'title' => t('Global calendar'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -529,7 +529,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_calendar_view_date_node';
-  $cat_item->name = 'ERPAL Calendar:  View date node';
+  $cat_item->name = t('ERPAL Calendar:  View date node');
   $cat_item->catch_subpaths = 1;
   $cat_item->category = 'Calendar';
   $cat_item->path = 'node/%';
@@ -562,7 +562,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'ERPAL Calendar:  View date node',
+    'name' => t('ERPAL Calendar:  View date node'),
     'path' => 'node/%',
     'category' => 'Calendar',
     'cat_actions' => array(),
@@ -574,7 +574,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         'path_pattern' => 'calendar/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Own calendar',
+        'title' => t('Own calendar'),
         'css_id' => '',
         'css_class' => '',
         'active' => TRUE,
@@ -590,7 +590,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         'path_pattern' => 'calendar/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Global calendar',
+        'title' => t('Global calendar'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,

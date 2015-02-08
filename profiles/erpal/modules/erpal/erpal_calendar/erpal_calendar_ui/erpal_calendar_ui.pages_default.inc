@@ -431,7 +431,7 @@ function erpal_calendar_ui_default_page_manager_pages() {
   $page->api_version = 1;
   $page->name = 'full_calendar_pane';
   $page->task = 'page';
-  $page->admin_title = 'Full calendar pane';
+  $page->admin_title = t('Full calendar pane');
   $page->admin_description = '';
   $page->path = 'calendar/%type';
   $page->access = array(
@@ -472,7 +472,7 @@ function erpal_calendar_ui_default_page_manager_pages() {
   $handler->handler = 'panel_context';
   $handler->weight = -30;
   $handler->conf = array(
-    'title' => 'Full calendar all panel',
+    'title' => t('Full calendar all panel'),
     'no_blocks' => 1,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
@@ -510,7 +510,7 @@ function erpal_calendar_ui_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Calendar';
+  $display->title = t('Calendar');
   $display->uuid = 'fd38c263-97e4-f484-f54a-8d7a35bd1120';
   $display->content = array();
   $display->panels = array();
@@ -589,7 +589,7 @@ function erpal_calendar_ui_default_page_manager_pages() {
   $handler->handler = 'panel_context';
   $handler->weight = -29;
   $handler->conf = array(
-    'title' => 'Full calendar own panel',
+    'title' => t('Full calendar own panel'),
     'no_blocks' => 1,
     'pipeline' => 'standard',
     'body_classes_to_remove' => '',
@@ -627,7 +627,7 @@ function erpal_calendar_ui_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'My Calendar';
+  $display->title = t('My Calendar');
   $display->uuid = 'aa11380c-2a3f-ec24-d9e8-f7018ab2a9f8';
   $display->content = array();
   $display->panels = array();
