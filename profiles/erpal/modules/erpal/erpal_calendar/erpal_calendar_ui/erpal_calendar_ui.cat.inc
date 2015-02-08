@@ -77,7 +77,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         'path_pattern' => 'calendar/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Global calendar',
+        'title' => t('Global calendar'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -101,7 +101,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_calendar_create_date';
-  $cat_item->name = 'Erpal Calendar: Create Date';
+  $cat_item->name = t('Erpal Calendar: Create Date');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Calendar';
   $cat_item->path = 'node/add/erpal-date';
@@ -113,7 +113,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
     ),
     'active_trail_path' => 'calendar/own',
     'arguments' => array(),
-    'name' => 'Erpal Calendar: Create Date',
+    'name' => t('Erpal Calendar: Create Date'),
     'path' => 'node/add/erpal-date',
     'category' => 'Calendar',
     'cat_actions' => array(),
@@ -141,7 +141,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         'path_pattern' => 'calendar/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Global calendar',
+        'title' => t('Global calendar'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -165,7 +165,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_calendar_edit_data';
-  $cat_item->name = 'Erpal Calendar: Edit Data';
+  $cat_item->name = t('Erpal Calendar: Edit Data');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Calendar';
   $cat_item->path = 'date_item/%/edit';
@@ -198,7 +198,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal Calendar: Edit Data',
+    'name' => t('Erpal Calendar: Edit Data'),
     'path' => 'date_item/%/edit',
     'category' => 'Calendar',
     'cat_actions' => array(),
@@ -210,7 +210,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         'path_pattern' => 'calendar/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Own calendar',
+        'title' => t('Own calendar'),
         'css_id' => '',
         'css_class' => 'active-trail active',
         'active' => TRUE,
@@ -226,7 +226,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         'path_pattern' => 'calendar/%',
         'path_query' => array(),
         'path_destination' => FALSE,
-        'title' => 'Global calendar',
+        'title' => t('Global calendar'),
         'css_id' => '',
         'css_class' => '',
         'active' => FALSE,
@@ -250,7 +250,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_calendar_hide_date_item_tabs';
-  $cat_item->name = 'Erpal calendar: hide date item tabs';
+  $cat_item->name = t('Erpal calendar: hide date item tabs');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Calendar';
   $cat_item->path = 'date_item/%';
@@ -269,7 +269,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
         ),
       ),
     ),
-    'name' => 'Erpal calendar: hide date item tabs',
+    'name' => t('Erpal calendar: hide date item tabs'),
     'path' => 'date_item/%',
     'category' => 'Calendar',
     'cat_actions' => array(),
@@ -309,7 +309,7 @@ function erpal_calendar_ui_cat_items_settings_info() {
   $cat_item = new stdClass();
   $cat_item->api_version = 1;
   $cat_item->machine_name = 'erpal_calendar_legend';
-  $cat_item->name = 'Erpal Calendar: Legend';
+  $cat_item->name = t('Erpal Calendar: Legend');
   $cat_item->catch_subpaths = 0;
   $cat_item->category = 'Calendar';
   $cat_item->path = 'taxonomy/term/%';

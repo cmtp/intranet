@@ -25,14 +25,14 @@ function erpal_calendar_service_services_resources() {
           array(
             'name' => 'id',
             'type' => 'int',
-            'description' => 'The id of the date item to get',
+            'description' => t('The id of the date item to get'),
             'source' => array('path' => 0), //counted from the end, so param = 0 is the last arg in the url!
             'optional' => TRUE,
           ),
           array(
             'name' => 'details',
             'type' => 'boolean',
-            'description' => 'includes details with the date item, defaults to true.',
+            'description' => t('includes details with the date item, defaults to true.'),
             'optional' => TRUE,
             'source' => array('param' => 'details'),
             'default value' => TRUE,
@@ -40,7 +40,7 @@ function erpal_calendar_service_services_resources() {
           array(
             'name' => 'include_children',
             'type' => 'boolean',
-            'description' => 'includes children to requested date item, defaults to false.',
+            'description' => t('includes children to requested date item, defaults to false.'),
             'optional' => TRUE,
             'source' => array('param' => 'include_children'),
             'default value' => FALSE,
@@ -48,7 +48,7 @@ function erpal_calendar_service_services_resources() {
           array(
             'name' => 'entity_type',
             'type' => 'string',
-            'description' => 'specifies the date_items entity_type to return. if not provided, all entity_types are considered.',
+            'description' => t('specifies the date_items entity_type to return. if not provided, all entity_types are considered.'),
             'optional' => TRUE,
             'source' => array('param' => 'entity_type'),
             'default value' => 'date_item',
@@ -56,7 +56,7 @@ function erpal_calendar_service_services_resources() {
           array(
             'name' => 'bundle',
             'type' => 'string',
-            'description' => 'specifies the bundle to return. if not provided, all bundles are considered.',
+            'description' => t('specifies the bundle to return. if not provided, all bundles are considered.'),
             'optional' => TRUE,
             'source' => array('param' => 'bundle'),
             'default value' => 'date_item',
@@ -75,7 +75,7 @@ function erpal_calendar_service_services_resources() {
           array(
             'name' => 'start',
             'type' => 'int',
-            'description' => 'Deliver data from nth element, defaults to 0.',
+            'description' => t('Deliver data from nth element, defaults to 0.'),
             'optional' => TRUE,
             'source' => array('param' => 'start'),
             'default value' => 0,
@@ -83,7 +83,7 @@ function erpal_calendar_service_services_resources() {
           array(
             'name' => 'count',
             'type' => 'int',
-            'description' => 'Deliver n elements, defaults to PHP_INT_MAX.',
+            'description' => t('Deliver n elements, defaults to PHP_INT_MAX.'),
             'optional' => TRUE,
             'source' => array('param' => 'count'),
             'default value' => PHP_INT_MAX,
@@ -91,7 +91,7 @@ function erpal_calendar_service_services_resources() {
           array(
             'name' => 'changed_since',
             'type' => 'int',
-            'description' => 'Deliver elements changed or created after UNIX-Timestamp t, defaults to 0.',
+            'description' => t('Deliver elements changed or created after UNIX-Timestamp t, defaults to 0.'),
             'optional' => TRUE,
             'source' => array('param' => 'changed_since'),
             'default value' => 0,
@@ -99,7 +99,7 @@ function erpal_calendar_service_services_resources() {
           array(
             'name' => 'details',
             'type' => 'boolean',
-            'description' => 'Deliver the date item with detailed information, defaults to false.',
+            'description' => t('Deliver the date item with detailed information, defaults to false.'),
             'optional' => TRUE,
             'source' => array('param' => 'details'),
             'default value' => FALSE,
@@ -107,7 +107,7 @@ function erpal_calendar_service_services_resources() {
           array(
             'name' => 'include_children',
             'type' => 'boolean',
-            'description' => 'includes children to requested date item, defaults to false.',
+            'description' => t('includes children to requested date item, defaults to false.'),
             'optional' => TRUE,
             'source' => array('param' => 'include_children'),
             'default value' => FALSE,
@@ -115,7 +115,7 @@ function erpal_calendar_service_services_resources() {
           array(
             'name' => 'entity_type',
             'type' => 'string',
-            'description' => 'specifies the date_items entity_type to return. if not provided, all entity_types are considered.',
+            'description' => t('specifies the date_items entity_type to return. if not provided, all entity_types are considered.'),
             'optional' => TRUE,
             'source' => array('param' => 'entity_type'),
             'default value' => 'date_item',
@@ -123,7 +123,7 @@ function erpal_calendar_service_services_resources() {
           array(
             'name' => 'bundle',
             'type' => 'string',
-            'description' => 'specifies the bundle to return. if not provided, all bundles are considered.',
+            'description' => t('specifies the bundle to return. if not provided, all bundles are considered.'),
             'optional' => TRUE,
             'source' => array('param' => 'bundle'),
             'default value' => 'date_item',
